@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+tqdm = "*"
+lightgbm = "*"
+beautifulsoup4 = "*"
+wheel = "*"
+scikit-learn = "*"
+jupyter = "*"
+ipykernel = "*"
+requests = "*"
+imblearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
